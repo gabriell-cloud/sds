@@ -1,0 +1,55 @@
+package main
+
+import "fmt"
+
+//Dibuat oleh Gabriel Arya Wahyu Bhagaskara
+
+//Luas Segitiga
+func LuasSegitiga() {
+	var alas float32 = 10.0
+	var tinggi float32 = 5.0
+	L := 0.5 * alas * tinggi
+	fmt.Println("Luas segitiga sebesar", L)
+}
+
+//Luas Persegi
+func LuasPersegi() {
+	var sisi float32 = 5.0
+	L := sisi * sisi
+	fmt.Println("Luas persegi sebesar", L)
+}
+
+//Luas lingkaran
+func LuasLingkaran() {
+	var jari_jari float32 = 7
+	var phi float32 = 3.14
+	L := jari_jari * phi
+	fmt.Println("Luas sebuah lingkaran adalah", L)
+}
+
+//Menghitung Energi Potensial
+func Energi_Potensial() {
+	var massa float32 = 2.0
+	var gravitasi float32 = 10.0
+	var ketinggian float32 = 5.0
+	Ep := massa * gravitasi * ketinggian
+	fmt.Println("Nilai energi potensial yang dialami sebesar", Ep, "Joule")
+}
+
+//Menghitung frekuensi
+func menghitung_frekuensi() {
+	var periode float32 = 10.0
+	f := 1 / periode
+	fmt.Println("Frekuensi yang dihasilkan sebesar", f, "Hz")
+}
+
+//Konversi suhu
+func Konversi_suhu() {
+	var K float32 = 270.5
+	C := K - 273.15
+	F := 1.8*(K-273.15) + 32
+	R := (C * 4) / 5
+	fmt.Println("Suhu celcius adalah", C, "derajat")
+	fmt.Println("Suhu fahrenheit adalah", F, "derajat")
+	fmt.Println("Suhu reamur adalah", R, "derajat")
+}
