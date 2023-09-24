@@ -1,0 +1,19 @@
+package main
+
+import (
+	"fmt"
+	"sort"
+)
+
+// Dibuat oleh Gabriel Arya Wahyu Bhagaskara
+
+func main() {
+	angka := []int{2, 10, 6, 8, 9}
+	fmt.Println(angka)
+	sort.Ints(angka)
+	fmt.Println(angka)
+	angka = append(angka, 90)
+	angka = append(angka, 85)
+	angka = append(angka, 70)
+	fmt.Println(angka)
+}
