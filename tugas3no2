@@ -1,0 +1,31 @@
+//Dibuat oleh Gabriel Arya Wahyu Bhagaskara
+//Nomor 2
+
+package main
+ 
+import "fmt"
+ 
+type Mahasiswa struct {
+   nama, jurusan, fakultas string
+   angkatan int
+}
+func main() {
+   var Mahasiswa1 Mahasiswa    
+   var Mahasiswa2 Mahasiswa   
+ 
+  
+   Mahasiswa1.nama = "Mahesa"
+   Mahasiswa1.jurusan = "Teknik Nuklir"
+   Mahasiswa1.fakultas = "Teknik"
+   Mahasiswa1.angkatan = 2020
+  
+  Mahasiswa2.nama = “Yuqi”
+  Mahasiswa2.jurusan = “Sastra Inggris”
+  Mahasiswa2.fakultas = “Ilmu Budaya”
+ Mahasiswa2.angkatan = 2022
+
+ 
+  
+   fmt.Println( "Mahasiswa pria : %s\n", Mahasiswa1.nama, Mahasiswa1.jurusan, Mahasiswa1.fakultas, Mahasiswa1.angkatan)
+  fmt.Printf( "Mahasiswa wanita :” , Mahasiswa2.nama, Mahasiswa2.jurusan, Mahasiswa2.fakultas, Mahasiswa2.angkatan)
+}
