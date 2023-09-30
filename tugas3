@@ -1,0 +1,41 @@
+//Dibuat oleh Gabriel Arya Wahyu Bhagaskara
+
+package main
+
+import "fmt"
+
+func main() {
+    Nama := make(map[int]string)
+    Nama[1] = "Agus"
+    Nama[2] = "Wahyu"
+    Nama[3] = "Boy"
+
+    fmt.Println(Nama[1])
+    fmt.Println(Nama[2])
+    fmt.Println(Nama[3])
+
+  Produk :=make(map[int]string)
+  Produk[1] = "Veloz"
+  Produk[2] = "Jazz"
+  Produk[3] = "Hilux"
+
+  fmt.Println(Produk[1])
+  fmt.Println(Produk[2])
+  fmt.Println(Produk[3])
+
+  Harga:=make(map[int]int)
+  Harga[1] = 1200000
+  Harga[2] = 2000000
+  Harga[3] = 6500000
+
+  fmt.Println(Harga[1])
+  fmt.Println(Harga[2])
+  fmt.Println(Harga[3])
+}
+
+type orang struct{
+  Nama string
+  Produk string
+  Harga int
+
+}
